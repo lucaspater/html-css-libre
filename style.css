@@ -1,0 +1,167 @@
+
+/* body */
+body{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(173, 167, 167);
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header */
+.header{
+    width: 1800px;
+    height: 280px;
+    border: solid black 1px;
+    position: relative;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.header h1{
+    font-size: 120px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.image{
+    width: 300px;
+    height: 300px;
+    right: 10px;
+    top: 50px;
+    position: absolute;
+}
+
+.image img{
+    width: 100%;
+    height: auto;
+}
+
+/* main */
+.main{
+    width: 1800px;
+    height: 2000px;
+    border: solid black 1px;
+    margin: auto;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.contenedor{
+    width: 1600px;
+    height: 1870px;
+    border: solid black 1px;
+    margin: auto;
+    margin-bottom: 20px;
+    position: relative;
+    top: 50px;
+    display: block;
+}
+
+.image2{
+    width: 700px;
+    height: 500px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.image2 img{
+    width: 100%;
+    height: auto;
+}
+
+.parrafo1{
+        width:  1100px;
+        height: 400px;
+        border: solid black 1px;
+        margin: auto;
+        margin-bottom: 20px;
+        position: relative;
+}
+
+.parrafo2{
+    width:  1100px;
+    height: 400px;
+    border: solid black 1px;
+    margin: auto;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.parrafo3{
+    width:  1100px;
+    height: 400px;
+    border: solid black 1px;
+    margin: auto;
+    margin-bottom: 20px;
+    position: relative;
+}
+p{
+    text-align: center;
+    font-size: 35px;
+    padding: 10px;
+}
+.footer{
+    width: 1800px;
+    height: 310px;
+    border: solid black 1px;
+    position: relative;
+    margin: auto;
+}
+
+.image3{
+    width: 400px;
+    height: 400px;
+    left: 20px;
+    top: 20px;
+    position: absolute;
+}
+.image3 img{
+    width: 100%;
+    height: auto;
+}
+
+.redes li{
+    list-style: none;
+    box-sizing: border-box;
+    padding-bottom: 5px;
+    padding: 7px;
+}
+
+.redes{
+    font-size: 30px;
+    width: 100px;
+    height: 100px;
+    right: 100px;
+    position: absolute;
+}
+
+.icon{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.icon-facebook2{
+    background: #2E406E;
+    border: 1px solid black;
+}
+
+.icon-youtube2{
+    background: #E83028;
+    border: 1px solid black;
+}
+
+.icon-instagram{
+    background: red;
+    border: 1px solid blue;
+}
+
+.icon-spotify{
+    background: green;
+    border: 1px solid black;
+}
+.icon-google2{
+    background: black;
+    border: 1px solid black;
+}
