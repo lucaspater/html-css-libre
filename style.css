@@ -13,9 +13,10 @@ body{
     width: 1800px;
     height: 280px;
     border: solid black 1px;
-    position: relative;
     margin: auto;
     margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .header h1{
@@ -29,7 +30,6 @@ body{
     height: 300px;
     right: 10px;
     top: 50px;
-    position: absolute;
 }
 
 .image img{
@@ -43,8 +43,10 @@ body{
     height: 2000px;
     border: solid black 1px;
     margin: auto;
-    position: relative;
     margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .contenedor{
@@ -53,9 +55,7 @@ body{
     border: solid black 1px;
     margin: auto;
     margin-bottom: 20px;
-    position: relative;
     top: 50px;
-    display: block;
 }
 
 .image2{
@@ -76,7 +76,7 @@ body{
         border: solid black 1px;
         margin: auto;
         margin-bottom: 20px;
-        position: relative;
+
 }
 
 .parrafo2{
@@ -85,7 +85,7 @@ body{
     border: solid black 1px;
     margin: auto;
     margin-bottom: 20px;
-    position: relative;
+
 }
 
 .parrafo3{
@@ -94,7 +94,7 @@ body{
     border: solid black 1px;
     margin: auto;
     margin-bottom: 20px;
-    position: relative;
+
 }
 p{
     text-align: center;
@@ -107,6 +107,8 @@ p{
     border: solid black 1px;
     position: relative;
     margin: auto;
+    display: flex;
+    justify-content: space-around;
 }
 
 .image3{
@@ -114,12 +116,12 @@ p{
     height: 400px;
     left: 20px;
     top: 20px;
-    position: absolute;
 }
 .image3 img{
     width: 100%;
     height: auto;
 }
+
 
 .redes li{
     list-style: none;
@@ -133,7 +135,6 @@ p{
     width: 100px;
     height: 100px;
     right: 100px;
-    position: absolute;
 }
 
 .icon{
